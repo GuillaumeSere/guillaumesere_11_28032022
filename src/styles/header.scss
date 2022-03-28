@@ -14,8 +14,10 @@ a{
 #nav_container{
     width: 25%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 nav{
@@ -24,13 +26,28 @@ nav{
    }
 }
 
+@media screen and (max-width: 1200px){
+    #nav_container{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        text-align: right;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
+
 @media screen and (max-width: 768px){
     .logo_header{
-        width: 100%;
+        width: 80%;
     }
     #nav_container{
-        width: 100%;
-        justify-content: flex-end;
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        text-align: right;
+        font-size: 1.2rem;
+        font-weight: 500;
     }
     #header_container{
         div {

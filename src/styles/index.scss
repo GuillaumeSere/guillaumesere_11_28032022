@@ -53,11 +53,18 @@ body{
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 991px){
+    .banner_text{
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 768px){
     .banner_text{
         font-size: 24px;
         width: 80%;
         left: 20px;
+        line-height: 24px;
     }
     .banner{
     height: 111px;

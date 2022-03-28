@@ -24,25 +24,45 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   text-align: right;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 nav a {
   width: 50%;
 }
 
+@media screen and (max-width: 1200px) {
+  #nav_container {
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .logo_header {
-    width: 100%;
+    width: 80%;
   }
   #nav_container {
-    width: 100%;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 500;
   }
   #header_container div {
     width: 50%;

@@ -10,7 +10,7 @@ function Header() {
           <img src={LogoRed} alt="logo kasa" className="logo_header" />
         </div>
         <nav id="nav_container">
-          <NavLink to="/" label="Acceuil" />
+          <NavLink to="/" label="Accueil" />
           <NavLink to="about" label="A Propos" />
         </nav>
       </div>
