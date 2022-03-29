@@ -43,21 +43,10 @@ body {
 
 .footer {
   padding: 2%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
   background-color: black;
   color: white;
+  bottom: 0;
 }
 
 .footer_text {
@@ -80,12 +69,14 @@ body {
     line-height: 24px;
   }
   .banner {
-    height: 111px;
+    height: 223px;
   }
   .footer_text {
     font-size: 12px;
   }
   .footer {
+    position: fixed;
+    width: 100%;
     padding: 5%;
   }
 }

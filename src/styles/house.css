@@ -1,0 +1,220 @@
+.housing_main {
+  color: #FF6060;
+  margin: 1% 7% 1% 7%;
+}
+
+.info_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accordeon_container {
+  width: 100%;
+  margin-bottom: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accordeon {
+  height: 100%;
+  width: 47%;
+}
+
+.accordeon div {
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+.equipement_el {
+  margin: 1%;
+  list-style: none;
+}
+
+.gallery_container {
+  width: 100%;
+  height: 415px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.gallery_icon {
+  font-size: 4em;
+  cursor: pointer;
+}
+
+.info_title {
+  font-size: 36px;
+}
+
+.info_location {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.tag_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0;
+}
+
+.tag_el {
+  list-style: none;
+  font-size: 14px;
+  color: white;
+  background-color: #FF6060;
+  border-radius: 10px;
+  padding: 0.25em 1.2em;
+  margin-right: 10px;
+}
+
+.right_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.host {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 18px;
+}
+
+.host_picture {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.host_name {
+  margin: 0 10px 0 0;
+  text-align: right;
+  font-weight: 500;
+}
+
+.star {
+  font-size: 1.8em;
+}
+
+@media screen and (max-width: 768px) {
+  .housing_main {
+    margin-bottom: 7%;
+  }
+  .gallery_container {
+    height: 255px;
+    border-radius: 10px;
+  }
+  .gallery_icon {
+    font-size: 1.2em;
+  }
+  .info_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info_title {
+    font-size: 18px;
+  }
+  .info_location {
+    font-size: 14px;
+  }
+  .tag_el {
+    font-size: 10px;
+  }
+  .right_info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 6%;
+  }
+  .host {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 12px;
+  }
+  .host_picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  .star {
+    font-size: 0.95em;
+  }
+  .accordeon_container {
+    margin-bottom: 10rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .accordeon {
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .accordeon div {
+    font-size: 13px;
+  }
+  .accordeon div p {
+    margin-bottom: 0;
+    padding-top: 0.95em;
+    padding-bottom: 0.5em;
+  }
+  .accordeon div div {
+    height: 29.93px;
+  }
+}
+/*# sourceMappingURL=house.css.map */

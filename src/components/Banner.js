@@ -1,4 +1,5 @@
 function Banner({ urlImg, texte }) {
+    
     return (
       <div
         className="banner"
