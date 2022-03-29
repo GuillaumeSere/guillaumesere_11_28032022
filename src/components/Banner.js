@@ -25,7 +25,6 @@ function Banner({ urlImg, texte }) {
             }}
           >
           </div> 
-      
     );
   }
   
