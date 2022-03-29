@@ -10,7 +10,6 @@ function Home() {
       <Banner urlImg={bannerHome} texte="Chez vous, partout et ailleurs" />
       <div className="thumb_container">
         {data.map((data) => {
-            console.log(data.title)
           return (
             <Thumb
               title={data.title}

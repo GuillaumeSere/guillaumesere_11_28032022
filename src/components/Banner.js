@@ -1,6 +1,6 @@
 function Banner({ urlImg, texte }) {
     
-    return (
+    return texte ? (
       <div
         className="banner"
         style={{
@@ -14,7 +14,18 @@ function Banner({ urlImg, texte }) {
         <p className="banner_text">
           <span>{texte}</span>
         </p>
-      </div>
+      </div> ) : (
+            <div
+            className="ban"
+            style={{
+              backgroundImage: `url(${urlImg})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              backgroundPositionY: "40%",
+            }}
+          >
+          </div> 
+      
     );
   }
   
