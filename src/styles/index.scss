@@ -44,7 +44,7 @@ body{
 }
 
 .footer{
-    padding: 2%;
+    padding: 2% 0;
     text-align: center;
     background-color: black;
     color: white;
@@ -83,8 +83,7 @@ body{
         font-size: 12px;
     }
    .footer{
-       position:fixed;
        width: 100%;
-       padding: 5%;
+       padding: 2% 0 11%;
    }
 }
