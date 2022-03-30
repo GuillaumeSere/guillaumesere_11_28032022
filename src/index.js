@@ -12,7 +12,7 @@ import About from "./pages/About";
 
 ReactDOM.render(
   <React.StrictMode>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
             <Route path="/" element={<Home/>} />
