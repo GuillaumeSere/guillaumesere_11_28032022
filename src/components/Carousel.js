@@ -42,6 +42,7 @@ function Carousel({ array, lenght }) {
       }}
     >
       <FaChevronLeft className="gallery_icon" onClick={() => goPrev()} />
+      <p className="currImgIndex">{currentIndex + 1} / {array.length}</p>
       <FaChevronRight className="gallery_icon" onClick={() => goNext()} />
     </div>
   );

@@ -63,6 +63,11 @@
   color: white;
 }
 
+.gallery_container .currImgIndex {
+  position: relative;
+  margin-top: 23rem;
+}
+
 .gallery_icon {
   font-size: 4em;
   cursor: pointer;
