@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/guillaumesere_11_28032022/static/css/main.f11be411.css",
-    "main.js": "/guillaumesere_11_28032022/static/js/main.2b43cab3.js",
+    "main.css": "/guillaumesere_11_28032022/static/css/main.66524996.css",
+    "main.js": "/guillaumesere_11_28032022/static/js/main.8847bf8c.js",
     "static/media/banner_about.png": "/guillaumesere_11_28032022/static/media/banner_about.796d007cebdd47cc489b.png",
     "static/media/banner_home.png": "/guillaumesere_11_28032022/static/media/banner_home.40371f11171ba050e175.png",
     "index.html": "/guillaumesere_11_28032022/index.html",
-    "main.f11be411.css.map": "/guillaumesere_11_28032022/static/css/main.f11be411.css.map",
-    "main.2b43cab3.js.map": "/guillaumesere_11_28032022/static/js/main.2b43cab3.js.map"
+    "main.66524996.css.map": "/guillaumesere_11_28032022/static/css/main.66524996.css.map",
+    "main.8847bf8c.js.map": "/guillaumesere_11_28032022/static/js/main.8847bf8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f11be411.css",
-    "static/js/main.2b43cab3.js"
+    "static/css/main.66524996.css",
+    "static/js/main.8847bf8c.js"
   ]
 }
